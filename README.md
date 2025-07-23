@@ -34,7 +34,7 @@ before the course begins.
 | 12:00-12:45  | 45m    | 4. EDX with [eXSpy](https://hyperspy.org/exspy/)                           | Carter Francis       |
 | 12:45-13:30  | 45m    | Lunch break                                                                |                      |
 | 13:30-14:15  | 45m    | 5. EELS with [eXSpy](https://hyperspy.org/exspy/)                          | Josh Taillon         |
-| 14:15-15:00  | 45m    | 6. Cathodoluminescence with [LumiSpy](https://docs.lumispy.org)            | Josh / Carter        |
+| 14:15-15:00  | 45m    | 6. Cathodoluminescence with [LumiSpy](https://docs.lumispy.org) — depending on attendee interest            | Josh / Carter        |
 | 15:00-15:30  | 30m    | Coffee break                                                               |                      |
 | 15:30-16:15  | 45m    | 7. Lazy signals for Big Data                                               | Carter Francis       |
 | 16:15-17:00  | 45m    | 8. 4D-STEM with [Pyxem](https://pyxem.readthedocs.io/en/stable/index.html) | Carter Francis       |
