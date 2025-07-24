@@ -3,6 +3,35 @@
 Training material used during the 2025 HyperSpy Workshop at the Microscopy and Microanalysis meeting in Salt Lake City, UT
 in the short course _X-10 EM Data Analysis with the HyperSpy Ecosystem_.
 
+## Pre-course instructions
+
+> [!CAUTION]
+> TODO: make release and add button to download files
+
+Prior to arriving at the short course, please do the following:
+
+1. Install HyperSpy (see the [software installation](#software-installation) section)
+1. Download the example notebooks by clicking [here](https://github.com/hyperspy/MM2025_HyperSpy_Workshop/archive/refs/heads/main.zip) and extract the Zip file to a folder on your system
+
+### Getting started
+
+To run the demo notebooks in this tutorial, you will need to use the "Jupyter Lab" application, which will allow you to evaluate the Python code and follow along with the instructors.
+
+Depending on how you installed HyperSpy, how you start Jupyter Lab will look different:
+
+- If you used the HyperSpy bundle:
+    - (on Windows): you will find the "HyperSpy-bundle prompt" in your Start Menu. Open this application, and change to the directory where you unzipped the files via the [`cd` command](https://www.geeksforgeeks.org/operating-systems/cd-cmd-command/). Once in the right directory, execute the `jupyter lab` command to start Jupyter
+    - (on MacOS or Linux): from a terminal window, change to the directory where you unzipped the files, and execute the `jupyter` command from the `bin/` directory of the bundle installation. This will look something like: 
+        - `cd /Users/username/Downloads/hyperspy_tutorial/`
+        - `/Users/username/hyperspy-bundle/bin/jupyter lab`
+- If you used the manual `conda` method:
+    - Either open an "Anaconda Prompt" window, or activate the base `conda` environment in a regular terminal
+    - Activate the conda environment you created for the tutorial with `conda activate hyperspy_MM2025`
+    - Change to the directory where you unzipped the files
+    - Start Jupyter by running `jupyter lab`
+
+Assuming this was successful, you should see the Jupyter Lab application open in your default web browser. The application runs in the background, and you access it via a regular browser window. If you can see the tutorial files, you're good to go! If not, please come to the short course a little early, and the instructors will help you get your installation set up correctly.
+
 ## ✨ Try it in your browser ✨
 
 While we recommend downloading this repository and running the code locally (since that will be how you use
@@ -11,7 +40,7 @@ in your web browser during the course.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hyperspy/MM2025_HyperSpy_Workshop/HEAD)
 
-Otherwise, follow the [Software Installation](#software-installation) section to download the files and install HyperSpy.
+Otherwise, follow the instructions in the previous section to get started.
 
 ## Venue
 
@@ -31,30 +60,26 @@ before the course begins.
 | 10:15-10:30  | 15m    | Coffee break                                                               |                      |
 | 10:30-11:15  | 45m    | 2. Decomposition and BSS                                                   | Josh Taillon         |
 | 11:15-12:00  | 45m    | 3. Curve fitting                                                           | Carter Francis       |
-| 12:00-12:45  | 45m    | 4. EDX with [eXSpy](https://hyperspy.org/exspy/)                           | Carter Francis       |
-| 12:45-13:30  | 45m    | Lunch break                                                                |                      |
+| 12:00-12:45  | 45m    | Lunch break                                                                |                      |
+| 12:45-13:30  | 45m    | 4. EDX with [eXSpy](https://hyperspy.org/exspy/)                           | Carter Francis       |
 | 13:30-14:15  | 45m    | 5. EELS with [eXSpy](https://hyperspy.org/exspy/)                          | Josh Taillon         |
-| 14:15-15:00  | 45m    | 6. Cathodoluminescence with [LumiSpy](https://docs.lumispy.org) — depending on attendee interest            | Josh / Carter        |
-| 15:00-15:30  | 30m    | Coffee break                                                               |                      |
-| 15:30-16:15  | 45m    | 7. Lazy signals for Big Data                                               | Carter Francis       |
-| 16:15-17:00  | 45m    | 8. 4D-STEM with [Pyxem](https://pyxem.readthedocs.io/en/stable/index.html) | Carter Francis       |
+| 14:15-14:30  | 15m    | Coffee break                                                               |                      |
+| 14:30-15:15  | 45m    | 7. Lazy signals for Big Data                                               | Carter Francis       |
+| 15:15-16:00  | 45m    | 8. 4D-STEM with [Pyxem](https://pyxem.readthedocs.io/en/stable/index.html) | Carter Francis       |
+| 16:00-17:00  | 1h     | Extra time / Office hours / "Bring your own data"                          |                      |
 
-The numbered activities correspond to the tutorials in the folders of this repository.
+
+During the final hour, the instructors will be available in a casual setting to answer specific questions about how HyperSpy could be used with your data. Please bring data from your research to play with during this time!
 
 ## Instructors
 
 - Joshua Taillon ([DataSophos, LLC](https://datasophos.co))
 - Carter Francis (Direct Electron)
-- Tina Bergh (NTNU) 
+
+## Helpers
+
 - Nick Hagopian (UW Madison)
 - Geri Topore (Imperial College London)
-
-## Downloading large files
-
-> [!CAUTION]
-> This needs to be updated
-
-Download the zip-file from this link: https://filesender.sikt.no/?s=download&token=000ee6a7-008e-4a63-aada-67706ef762bc
 
 ## Software installation
 
@@ -63,7 +88,7 @@ To use the Jupyter Notebooks in this repository, you need to install some softwa
 
 ### Simple installation instructions (best for Python beginners)
 
-The easiest way to install all the software required to run the Jupyter Notebooks in this repository is to [install the HyperSpy Bundle](https://hyperspy.org/hyperspy-bundle/install.html), which can be downloaded from [here](https://github.com/hyperspy/hyperspy-bundle/releases/latest).
+The easiest (and recommended) way to install the software required to run the Jupyter Notebooks in this repository is to [install the HyperSpy Bundle](https://hyperspy.org/hyperspy-bundle/install.html), which can be downloaded from [here](https://github.com/hyperspy/hyperspy-bundle/releases/latest).
 
 
 ### Advanced installation instructions (for advanced users)
