@@ -18,6 +18,11 @@ table.table {
     padding: 0px 0px 1em 0;
 }
 
+/* offset code examples */
+.code-example {
+    margin-left: 20%;
+}
+
 /* make mark tag more obvious */
 mark {
     background-color: rgb(224, 67, 67);
