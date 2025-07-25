@@ -11,7 +11,36 @@ in the short course _X-10 EM Data Analysis with the HyperSpy Ecosystem_.
 Prior to arriving at the short course, please do the following:
 
 1. Install HyperSpy (see the [software installation](#software-installation) section)
-1. Download the example notebooks by clicking [here](https://github.com/hyperspy/MM2025_HyperSpy_Workshop/archive/refs/heads/main.zip) and extract the Zip file to a folder on your system
+1. Download the example notebooks by clicking the button below and extract the Zip file to a folder on your system
+
+<!-- HTML !-->
+<div style="margin-left: auto; margin-right: auto">
+<a href="https://github.com/hyperspy/MM2025_HyperSpy_Workshop/archive/refs/heads/main.zip">
+<button style="appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;" role="button">Download Course Files</button>
+  </a>
+  </div>
+
 
 ### Getting started
 
