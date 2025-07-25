@@ -1,0 +1,6 @@
+{
+    "hyperspy_version": "1.7.5",
+    "io_plugin": "hyperspy.io_plugins.zspy",
+    "operation": "save",
+    "timestamp": "2023-06-08T20:09:21.305761-05:00"
+}
