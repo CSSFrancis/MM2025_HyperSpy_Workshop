@@ -5,42 +5,12 @@ in the short course _X-10 EM Data Analysis with the HyperSpy Ecosystem_.
 
 ## Pre-course instructions
 
-> [!CAUTION]
-> TODO: make release and add button to download files
-
 Prior to arriving at the short course, please do the following:
 
 1. Install HyperSpy (see the [software installation](#software-installation) section)
 1. Download the example notebooks by clicking the button below and extract the Zip file to a folder on your system
 
-<!-- HTML !-->
-<div style="margin-left: auto; margin-right: auto">
-<a href="https://github.com/hyperspy/MM2025_HyperSpy_Workshop/archive/refs/heads/main.zip">
-<button style="appearance: none;
-  background-color: #2ea44f;
-  border: 1px solid rgba(27, 31, 35, .15);
-  border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  padding: 6px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  white-space: nowrap;" role="button">Download Course Files</button>
-  </a>
-  </div>
-
+> [![Download Course Files](https://img.shields.io/badge/Download_Course_Files-347d39?style=for-the-badge&logoColor=white&logo=data:image/svg%2bxml;base64,PHN2ZyB2ZXJzaW9uPSIxIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTExLjIgMGEuOC44IDAgMCAwLS44Ljh2MTEuNEw3LjI2IDkuNDRhLjgwMy44MDMgMCAwIDAtMS4xMy4wNzRsLTEuMDUgMS4yYS44LjggMCAwIDAgLjA3MyAxLjEzbDYuMzMgNS41NGEuNzk1Ljc5NSAwIDAgMCAxLjA1IDBsNi4zMi01LjU0YS44LjggMCAwIDAgLjA3NC0xLjEzbC0xLjA1LTEuMmEuODA0LjgwNCAwIDAgMC0xLjEzLS4wNzRsLTMuMTQgMi43NlYuOGEuOC44IDAgMCAwLS44LS44em0tOCAyMC44YS44LjggMCAwIDAtLjguOHYxLjZhLjguOCAwIDAgMCAuOC44aDE3LjZhLjguOCAwIDAgMCAuOC0uOHYtMS42YS44LjggMCAwIDAtLjgtLjh6IiBmaWxsPSIiIHN0eWxlPSJmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjEiIC8+PC9zdmc+)](https://github.com/hyperspy/MM2025_HyperSpy_Workshop/archive/refs/heads/main.zip)
 
 ### Getting started
 
